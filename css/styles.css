@@ -1,0 +1,235 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #757575;
+    --secondary-color: #212121;
+    --logo-color: #000000;
+    --hero-color: #FFFFFF;
+    --footer-color: rgba(255, 255, 255, 0.6);
+    --accent-color:#2196F3;
+    --primary-background_color: #F5F5F5;
+    --secondary-background-color: #F5F4FA;
+    --footer_background_color: #2F303A;
+}
+
+.studio,
+.studio-portfolio {
+    background-color: var(--hero-color);
+    color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.over {
+    background-color: var(--hero-color);
+}
+/* Навігація */
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.logo-studio {
+    color: var(--logo-color);
+}
+
+.site-nav .link {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.contacts .link {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+/* Герой-секція */
+
+.hero {
+   background-color: var(--footer_background_color); 
+}
+
+.hero-tittle {
+    color: var(--hero-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    color: var(--hero-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Особливості */
+/* Прихований заголовок */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-details {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* Чим ми займаємося */
+
+.work-do {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.team-name {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-initials {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Підвал сайту */
+
+.under {
+    background-color: var(--footer_background_color);
+}
+
+.logo-studio-ftr {
+    color: var(--hero-color)
+}
+.address {
+    color: var(--hero-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.contact-ftr {
+    color: var(--footer-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.contact-ftr:hover,
+.contact-ftr:focus {
+    color: var(--accent-color);
+}
+
+/* Портфоліо */
+
+.portfolio-nav .item {
+    color: var(--secondary-color);
+    background-color: var(--secondary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.portfolio-nav .item:hover,
+.portfolio-nav .item:focus,
+.portfolio-nav .item:active {
+    color: var(--hero-color);
+    background-color: var(--accent-color)
+}
+
+/* Перелік проектів */
+
+.project-name {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    color: var(--primary-color);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
